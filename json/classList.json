@@ -19,7 +19,7 @@
           "is_shareget": false,
           "column_begin_time": 1519920000,
           "column_subtitle": "详解gRPC运作机制与原理",
-          "sub_count": 6843,
+          "sub_count": 6922,
           "had_sub": false,
           "id": 75,
           "author_name": "李林锋"
@@ -40,7 +40,7 @@
           "is_shareget": false,
           "column_begin_time": 1517932800,
           "column_subtitle": "来自一线大厂的第一手经验总结",
-          "sub_count": 4112,
+          "sub_count": 4160,
           "had_sub": false,
           "id": 73,
           "author_name": "周晶"
@@ -61,7 +61,7 @@
           "is_shareget": false,
           "column_begin_time": 1511884800,
           "column_subtitle": "程序员都应该学学怎么表达",
-          "sub_count": 9645,
+          "sub_count": 9802,
           "had_sub": false,
           "id": 61,
           "author_name": "极客时间"
@@ -125,6 +125,27 @@
     "1": {
       "list": [
         {
+          "update_frequency": "每周一 \/ 三 \/ 五更新",
+          "is_preorder": true,
+          "author_intro": "网名丁奇，前阿里资深技术专家",
+          "column_bgcolor": "#979899",
+          "column_price_market": 9900,
+          "is_experience": false,
+          "author_header": "https:\/\/static001.geekbang.org\/resource\/image\/59\/db\/598593a4da4fd7ea898711cc623292db.jpg",
+          "column_title": "MySQL实战45讲",
+          "is_include_audio": true,
+          "column_unit": "45期",
+          "column_price": 6800,
+          "column_cover": "https:\/\/static001.geekbang.org\/resource\/image\/5f\/cd\/5f197321896070a8ba9635b5b03764cd.jpg",
+          "is_shareget": false,
+          "column_begin_time": 1541692800,
+          "column_subtitle": "从原理到实战，丁奇带你搞懂MySQL",
+          "sub_count": 12011,
+          "had_sub": false,
+          "id": 139,
+          "author_name": "林晓斌"
+        },
+        {
           "update_frequency": "每周二 \/ 四 \/ 六更新",
           "is_preorder": false,
           "author_intro": "同程艺龙交通首席架构师、前Intel大数据架构师、《大型网站技术架构》作者",
@@ -140,7 +161,7 @@
           "is_shareget": false,
           "column_begin_time": 1540742400,
           "column_subtitle": "智能时代你的大数据第一课",
-          "sub_count": 7015,
+          "sub_count": 7145,
           "had_sub": false,
           "id": 133,
           "author_name": "李智慧"
@@ -161,7 +182,7 @@
           "is_shareget": false,
           "column_begin_time": 1540224000,
           "column_subtitle": "为程序员打造的专属法律武器",
-          "sub_count": 2945,
+          "sub_count": 2983,
           "had_sub": false,
           "id": 132,
           "author_name": "周甲徳"
@@ -182,7 +203,7 @@
           "is_shareget": false,
           "column_begin_time": 1537804800,
           "column_subtitle": "大并发高可用秒杀系统的设计之道",
-          "sub_count": 14609,
+          "sub_count": 14735,
           "had_sub": false,
           "id": 127,
           "author_name": "许令波"
@@ -203,7 +224,7 @@
           "is_shareget": false,
           "column_begin_time": 1537113600,
           "column_subtitle": "为工程师量身打造的数据结构与算法私教课",
-          "sub_count": 35992,
+          "sub_count": 36211,
           "had_sub": false,
           "id": 126,
           "author_name": "王争"
@@ -224,7 +245,7 @@
           "is_shareget": false,
           "column_begin_time": 1535040000,
           "column_subtitle": "Kubernetes原来可以如此简单",
-          "sub_count": 11078,
+          "sub_count": 11183,
           "had_sub": false,
           "id": 116,
           "author_name": "张磊"
@@ -240,12 +261,12 @@
           "column_title": "从0开始学微服务",
           "is_include_audio": true,
           "column_unit": "36期",
-          "column_price": 6800,
+          "column_price": 4900,
           "column_cover": "https:\/\/static001.geekbang.org\/resource\/image\/19\/20\/194375b8f3921c4d407022435c6ac420.jpg",
           "is_shareget": false,
           "column_begin_time": 1534694400,
           "column_subtitle": "微博服务化专家的一线实战经验",
-          "sub_count": 11110,
+          "sub_count": 11221,
           "had_sub": false,
           "id": 115,
           "author_name": "胡忠想"
@@ -266,7 +287,7 @@
           "is_shareget": false,
           "column_begin_time": 1533744000,
           "column_subtitle": "前百度最佳经理人的战地笔记",
-          "sub_count": 10465,
+          "sub_count": 10582,
           "had_sub": false,
           "id": 113,
           "author_name": "刘建国"
@@ -287,7 +308,7 @@
           "is_shareget": false,
           "column_begin_time": 1533225600,
           "column_subtitle": "3个月带你通关Go语言",
-          "sub_count": 16021,
+          "sub_count": 16159,
           "had_sub": false,
           "id": 112,
           "author_name": "郝林"
@@ -308,7 +329,7 @@
           "is_shareget": false,
           "column_begin_time": 1532620800,
           "column_subtitle": "每个程序员都应该知道的成长法则",
-          "sub_count": 5231,
+          "sub_count": 5275,
           "had_sub": false,
           "id": 111,
           "author_name": "胡峰"
@@ -329,7 +350,7 @@
           "is_shareget": false,
           "column_begin_time": 1532361600,
           "column_subtitle": "从0到100的产品启示录",
-          "sub_count": 9252,
+          "sub_count": 9299,
           "had_sub": false,
           "id": 110,
           "author_name": "邱岳"
@@ -350,7 +371,7 @@
           "is_shareget": false,
           "column_begin_time": 1531670400,
           "column_subtitle": "Oracle 高级研究员手把手带你入门 JVM",
-          "sub_count": 17855,
+          "sub_count": 17987,
           "had_sub": false,
           "id": 108,
           "author_name": "郑雨迪"
@@ -371,7 +392,7 @@
           "is_shareget": false,
           "column_begin_time": 1530460800,
           "column_subtitle": "量身定制你的持续交付体系",
-          "sub_count": 4741,
+          "sub_count": 4811,
           "had_sub": false,
           "id": 104,
           "author_name": "王潇俊"
@@ -392,7 +413,7 @@
           "is_shareget": false,
           "column_begin_time": 1529856000,
           "column_subtitle": "从小工到专家的实战心法",
-          "sub_count": 7994,
+          "sub_count": 8045,
           "had_sub": false,
           "id": 103,
           "author_name": "茹炳晟"
@@ -413,7 +434,7 @@
           "is_shareget": false,
           "column_begin_time": 1528041600,
           "column_subtitle": "帮你打通机器学习的任督二脉",
-          "sub_count": 5148,
+          "sub_count": 5233,
           "had_sub": false,
           "id": 97,
           "author_name": "王天一"
@@ -434,7 +455,7 @@
           "is_shareget": false,
           "column_begin_time": 1527004800,
           "column_subtitle": "你的游戏开发入门第一课",
-          "sub_count": 4342,
+          "sub_count": 4385,
           "had_sub": false,
           "id": 87,
           "author_name": "蔡能"
@@ -455,7 +476,7 @@
           "is_shareget": false,
           "column_begin_time": 1526313600,
           "column_subtitle": "像小说一样的网络协议入门课",
-          "sub_count": 22159,
+          "sub_count": 22288,
           "had_sub": false,
           "id": 85,
           "author_name": "刘超"
@@ -476,7 +497,7 @@
           "is_shareget": false,
           "column_begin_time": 1525190400,
           "column_subtitle": "前Oracle首席工程师带你修炼Java内功",
-          "sub_count": 28515,
+          "sub_count": 28701,
           "had_sub": false,
           "id": 82,
           "author_name": "杨晓峰"
@@ -497,7 +518,7 @@
           "is_shareget": false,
           "column_begin_time": 1524585600,
           "column_subtitle": "资深技术专家的实战架构心法",
-          "sub_count": 29065,
+          "sub_count": 29145,
           "had_sub": false,
           "id": 81,
           "author_name": "李运华"
@@ -518,7 +539,7 @@
           "is_shareget": false,
           "column_begin_time": 1523894400,
           "column_subtitle": "用实例揭示如何打造世界级产品",
-          "sub_count": 8978,
+          "sub_count": 9029,
           "had_sub": false,
           "id": 80,
           "author_name": "曲晓音"
@@ -539,7 +560,7 @@
           "is_shareget": false,
           "column_begin_time": 1523721600,
           "column_subtitle": "通往优秀技术领导者之路",
-          "sub_count": 8458,
+          "sub_count": 8716,
           "had_sub": false,
           "id": 79,
           "author_name": "TGO鲲鹏会"
@@ -560,7 +581,7 @@
           "is_shareget": false,
           "column_begin_time": 1521129600,
           "column_subtitle": "你的区块链入门第一课",
-          "sub_count": 13522,
+          "sub_count": 13568,
           "had_sub": false,
           "id": 76,
           "author_name": "陈浩"
@@ -581,7 +602,7 @@
           "is_shareget": false,
           "column_begin_time": 1520179200,
           "column_subtitle": "解决你推荐系统80%的问题",
-          "sub_count": 7603,
+          "sub_count": 7693,
           "had_sub": false,
           "id": 74,
           "author_name": "刑无刀"
@@ -602,7 +623,7 @@
           "is_shareget": false,
           "column_begin_time": 1513699200,
           "column_subtitle": "带你直击运维的本质",
-          "sub_count": 3634,
+          "sub_count": 3688,
           "had_sub": false,
           "id": 63,
           "author_name": "赵成"
@@ -623,7 +644,7 @@
           "is_shareget": false,
           "column_begin_time": 1512748800,
           "column_subtitle": "通俗易懂的人工智能入门课",
-          "sub_count": 8446,
+          "sub_count": 8538,
           "had_sub": false,
           "id": 62,
           "author_name": "王天一"
@@ -644,7 +665,7 @@
           "is_shareget": false,
           "column_begin_time": 1511193600,
           "column_subtitle": "重构你的产品思维",
-          "sub_count": 7979,
+          "sub_count": 8010,
           "had_sub": false,
           "id": 50,
           "author_name": "邱岳"
@@ -665,7 +686,7 @@
           "is_shareget": false,
           "column_begin_time": 1510502400,
           "column_subtitle": "从技术到管理，让你的目标函数达到最优解",
-          "sub_count": 8454,
+          "sub_count": 8505,
           "had_sub": false,
           "id": 49,
           "author_name": "朱赟"
@@ -686,7 +707,7 @@
           "is_shareget": false,
           "column_begin_time": 1507564800,
           "column_subtitle": "洞悉技术的本质，享受科技的乐趣",
-          "sub_count": 27040,
+          "sub_count": 27148,
           "had_sub": false,
           "id": 48,
           "author_name": "陈皓"
@@ -707,7 +728,7 @@
           "is_shareget": false,
           "column_begin_time": 1507564800,
           "column_subtitle": "你的360度人工智能信息助理",
-          "sub_count": 4170,
+          "sub_count": 4210,
           "had_sub": false,
           "id": 43,
           "author_name": "洪亮劼"
@@ -728,7 +749,7 @@
           "is_shareget": false,
           "column_begin_time": 1507564800,
           "column_subtitle": "一堂课看懂技术创新与商业模式",
-          "sub_count": 4048,
+          "sub_count": 4086,
           "had_sub": false,
           "id": 42,
           "author_name": "徐飞"
@@ -736,7 +757,7 @@
       ],
       "page": {
         "more": false,
-        "count": 29
+        "count": 30
       }
     },
     "3": {
@@ -757,7 +778,7 @@
           "is_shareget": false,
           "column_begin_time": 1540915200,
           "column_subtitle": "百万并发下的Nginx性能优化之道",
-          "sub_count": 6940,
+          "sub_count": 8032,
           "had_sub": false,
           "id": 138,
           "author_name": "陶辉"
@@ -773,12 +794,12 @@
           "column_title": "算法面试通关40讲",
           "is_include_audio": false,
           "column_unit": "40讲",
-          "column_price": 12900,
+          "column_price": 9900,
           "column_cover": "https:\/\/static001.geekbang.org\/resource\/image\/ab\/ff\/ab2201140bec62893752ccfb7f6762ff.jpg",
           "is_shareget": false,
           "column_begin_time": 1539014400,
           "column_subtitle": "前Facebook工程师带你吃透大厂面试题",
-          "sub_count": 8784,
+          "sub_count": 8947,
           "had_sub": false,
           "id": 130,
           "author_name": "覃超"
@@ -799,7 +820,7 @@
           "is_shareget": false,
           "column_begin_time": 1530547200,
           "column_subtitle": "Java\/Android开发者的实战指南",
-          "sub_count": 2599,
+          "sub_count": 2630,
           "had_sub": false,
           "id": 105,
           "author_name": "张涛"
@@ -820,7 +841,7 @@
           "is_shareget": false,
           "column_begin_time": 1528732800,
           "column_subtitle": "掌握当下最热门的前端利器",
-          "sub_count": 3161,
+          "sub_count": 3218,
           "had_sub": false,
           "id": 100,
           "author_name": "王沛"
@@ -841,7 +862,7 @@
           "is_shareget": false,
           "column_begin_time": 1527177600,
           "column_subtitle": "掌握AI时代的编程语言",
-          "sub_count": 7235,
+          "sub_count": 7312,
           "had_sub": false,
           "id": 98,
           "author_name": "尹会生"
@@ -862,7 +883,7 @@
           "is_shareget": false,
           "column_begin_time": 1525276800,
           "column_subtitle": "8大核心模块精讲，打通架构师进阶之路",
-          "sub_count": 5780,
+          "sub_count": 5825,
           "had_sub": false,
           "id": 84,
           "author_name": "杨波"
@@ -883,7 +904,7 @@
           "is_shareget": false,
           "column_begin_time": 1521648000,
           "column_subtitle": "从0开始构建你的第一款微信小程序",
-          "sub_count": 9392,
+          "sub_count": 9450,
           "had_sub": false,
           "id": 77,
           "author_name": "高磊"
@@ -904,7 +925,7 @@
           "is_shareget": false,
           "column_begin_time": 1515254400,
           "column_subtitle": "从理论到实践，理解微服务关键问题",
-          "sub_count": 9227,
+          "sub_count": 9329,
           "had_sub": false,
           "id": 66,
           "author_name": "杨波"

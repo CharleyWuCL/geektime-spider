@@ -8,21 +8,24 @@
 
 package charley.wu.geektime.spider;
 
-import java.util.HashMap;
+import charley.wu.geektime.spider.fetcher.PageFetcher;
+import java.io.IOException;
 
 /**
  * Main class.
  *
  * @author Charley Wu
  */
-public class SpiderMain {
+public class SpiderMan {
 
   public static void main(String[] args) {
-
-    SpiderConfig config = new SpiderConfig();
-    GeekTimeFetcher httpsTest = new GeekTimeFetcher(config);
-    httpsTest.sendHttpsPost("https://time.geekbang.org/serv/v1/column/all", new HashMap<>());
-
-    System.out.println("This is spider main!");
+    try {
+      SpiderConfig config = new SpiderConfig();
+      PageFetcher pageFetcher = new PageFetcher(config);
+      GeekProcessor processor = new GeekProcessor(pageFetcher);
+      processor.process();
+    }catch (IOException e){
+      e.printStackTrace();
+    }
   }
 }
