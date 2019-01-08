@@ -185,11 +185,11 @@ public class BaseClass {
     this.authorName = authorName;
   }
 
-  public List<Catalog> getArticles() {
+  public List<Catalog> getCatalogs() {
     return catalogs;
   }
 
-  public void setArticles(List<Catalog> catalogs) {
+  public void setCatalogs(List<Catalog> catalogs) {
     this.catalogs = catalogs;
   }
 

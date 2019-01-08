@@ -1,6 +1,7 @@
 package charley.wu.geektime.spider;
 
 import charley.wu.geektime.spider.common.Constants;
+import charley.wu.geektime.spider.entity.Article;
 import charley.wu.geektime.spider.entity.Catalog;
 import charley.wu.geektime.spider.entity.Column;
 import charley.wu.geektime.spider.fetcher.FetcherResult;
@@ -44,6 +45,14 @@ public class GeekProcessor {
       params.put("sample", false);
       FetcherResult columnResult = pageFetcher.fetcher(Catalog.URL_PREFIX, params);
       PageParser.parseCatalog(loadEntity(columnResult.getEntity()), column);
+
+      for(Catalog catalog : column.getCatalogs()){
+        JSONObject artParams = new JSONObject();
+        artParams.put("id", catalog.getId());
+        artParams.put("include_neighbors", true);
+        FetcherResult artColumnResult = pageFetcher.fetcher(Article.URL_PREFIX, artParams);
+        PageParser.parseArticle(loadEntity(artColumnResult.getEntity()));
+      }
     }
 
   }

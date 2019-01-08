@@ -1,5 +1,6 @@
 package charley.wu.geektime.spider.parser;
 
+import charley.wu.geektime.spider.entity.Article;
 import charley.wu.geektime.spider.entity.Catalog;
 import charley.wu.geektime.spider.entity.BaseClass;
 import charley.wu.geektime.spider.entity.Column;
@@ -7,6 +8,7 @@ import charley.wu.geektime.spider.entity.Micro;
 import charley.wu.geektime.spider.entity.Other;
 import charley.wu.geektime.spider.entity.Video;
 import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONPath;
 import com.alibaba.fastjson.TypeReference;
 import java.util.List;
@@ -62,8 +64,19 @@ public class PageParser {
    * @param clazz 课程
    */
   public static void parseCatalog(String content, BaseClass clazz){
-    JSONArray articleJson = (JSONArray) JSONPath.read(content, "$.data.list");
-    List<Catalog> catalogs = articleJson.toJavaList(Catalog.class);
-    clazz.setArticles(catalogs);
+    JSONArray catalogJson = (JSONArray) JSONPath.read(content, "$.data.list");
+    List<Catalog> catalogs = catalogJson.toJavaList(Catalog.class);
+    clazz.setCatalogs(catalogs);
+  }
+
+  /**
+   * 解析文章
+   *
+   * @param content 网页内容
+   */
+  public static void parseArticle(String content){
+    JSONObject articleJson = (JSONObject) JSONPath.read(content, "$.data");
+    Article article = articleJson.toJavaObject(Article.class);
+    System.out.println(article.getArticleContent());
   }
 }

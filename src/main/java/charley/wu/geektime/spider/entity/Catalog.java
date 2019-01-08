@@ -12,7 +12,7 @@ public class Catalog {
 
   private String articleSubtitle;
   private long articleCtime;
-  private int id;
+  private long id;
   private String articleCover;
   private String articleTitle;
   private String articleSummary;
@@ -37,11 +37,11 @@ public class Catalog {
     this.articleCtime = articleCtime;
   }
 
-  public int getId() {
+  public long getId() {
     return id;
   }
 
-  public void setId(int id) {
+  public void setId(long id) {
     this.id = id;
   }
 
