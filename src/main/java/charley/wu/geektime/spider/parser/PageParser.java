@@ -1,6 +1,6 @@
 package charley.wu.geektime.spider.parser;
 
-import charley.wu.geektime.spider.entity.Article;
+import charley.wu.geektime.spider.entity.Catalog;
 import charley.wu.geektime.spider.entity.BaseClass;
 import charley.wu.geektime.spider.entity.Column;
 import charley.wu.geektime.spider.entity.Micro;
@@ -55,9 +55,15 @@ public class PageParser {
     parseResult.setOtherCount(others.size());
   }
 
-  public static void parseArticle(String content, BaseClass clazz){
+  /**
+   * 解析文章目录
+   *
+   * @param content 网页内容
+   * @param clazz 课程
+   */
+  public static void parseCatalog(String content, BaseClass clazz){
     JSONArray articleJson = (JSONArray) JSONPath.read(content, "$.data.list");
-    List<Article> articles = articleJson.toJavaList(Article.class);
-    clazz.setArticles(articles);
+    List<Catalog> catalogs = articleJson.toJavaList(Catalog.class);
+    clazz.setArticles(catalogs);
   }
 }

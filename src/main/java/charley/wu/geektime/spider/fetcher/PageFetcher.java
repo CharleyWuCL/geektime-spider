@@ -37,13 +37,10 @@ import org.slf4j.LoggerFactory;
 public class PageFetcher {
 
   private static final Logger logger = LoggerFactory.getLogger(PageFetcher.class);
-  private final SpiderConfig config;
 
   private CloseableHttpClient httpClient;
 
   public PageFetcher(SpiderConfig config) {
-    this.config = config;
-
     //Default request config
     RequestConfig requestConfig = RequestConfig.custom()
         .setExpectContinueEnabled(false)

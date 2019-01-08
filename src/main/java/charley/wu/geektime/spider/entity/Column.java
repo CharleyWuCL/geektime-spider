@@ -10,5 +10,5 @@ import charley.wu.geektime.spider.common.ClassType;
  */
 public class Column extends BaseClass {
   public static final ClassType TYPE = ClassType.COLUMN;
-  public static final String URL_PREFIX = "https://time.geekbang.org/serv/v1/column/articles";
+
 }

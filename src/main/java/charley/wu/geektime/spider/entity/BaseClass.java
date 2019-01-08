@@ -15,23 +15,23 @@ public class BaseClass {
   private boolean isPreorder;
   private String authorIntro;
   private String columnBgcolor;
-  private int columnPriceMarket;
+  private long columnPriceMarket;
   private boolean isExperience;
   private String authorHeader;
   private String columnTitle;
   private boolean isIncludeAudio;
   private String columnUnit;
-  private int columnPrice;
+  private long columnPrice;
   private String columnCover;
   private boolean isShareget;
   private long columnBeginTime;
   private String columnSubtitle;
-  private int subCount;
+  private long subCount;
   private boolean hadSub;
-  private int id;
+  private long id;
   private String authorName;
 
-  private List<Article> articles = new ArrayList<>();
+  private List<Catalog> catalogs = new ArrayList<>();
 
   public String getUpdateFrequency() {
     return updateFrequency;
@@ -65,11 +65,11 @@ public class BaseClass {
     this.columnBgcolor = columnBgcolor;
   }
 
-  public int getColumnPriceMarket() {
+  public long getColumnPriceMarket() {
     return columnPriceMarket;
   }
 
-  public void setColumnPriceMarket(int columnPriceMarket) {
+  public void setColumnPriceMarket(long columnPriceMarket) {
     this.columnPriceMarket = columnPriceMarket;
   }
 
@@ -113,11 +113,11 @@ public class BaseClass {
     this.columnUnit = columnUnit;
   }
 
-  public int getColumnPrice() {
+  public long getColumnPrice() {
     return columnPrice;
   }
 
-  public void setColumnPrice(int columnPrice) {
+  public void setColumnPrice(long columnPrice) {
     this.columnPrice = columnPrice;
   }
 
@@ -153,11 +153,11 @@ public class BaseClass {
     this.columnSubtitle = columnSubtitle;
   }
 
-  public int getSubCount() {
+  public long getSubCount() {
     return subCount;
   }
 
-  public void setSubCount(int subCount) {
+  public void setSubCount(long subCount) {
     this.subCount = subCount;
   }
 
@@ -169,11 +169,11 @@ public class BaseClass {
     this.hadSub = hadSub;
   }
 
-  public int getId() {
+  public long getId() {
     return id;
   }
 
-  public void setId(int id) {
+  public void setId(long id) {
     this.id = id;
   }
 
@@ -185,12 +185,12 @@ public class BaseClass {
     this.authorName = authorName;
   }
 
-  public List<Article> getArticles() {
-    return articles;
+  public List<Catalog> getArticles() {
+    return catalogs;
   }
 
-  public void setArticles(List<Article> articles) {
-    this.articles = articles;
+  public void setArticles(List<Catalog> catalogs) {
+    this.catalogs = catalogs;
   }
 
   @Override

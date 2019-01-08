@@ -1,6 +1,7 @@
 package charley.wu.geektime.spider;
 
 import charley.wu.geektime.spider.common.Constants;
+import charley.wu.geektime.spider.entity.Catalog;
 import charley.wu.geektime.spider.entity.Column;
 import charley.wu.geektime.spider.fetcher.FetcherResult;
 import charley.wu.geektime.spider.fetcher.PageFetcher;
@@ -41,9 +42,10 @@ public class GeekProcessor {
       params.put("prev", 0);
       params.put("order", "earliest");
       params.put("sample", false);
-      FetcherResult columnResult = pageFetcher.fetcher(Column.URL_PREFIX, params);
-      PageParser.parseArticle(loadEntity(columnResult.getEntity()), column);
+      FetcherResult columnResult = pageFetcher.fetcher(Catalog.URL_PREFIX, params);
+      PageParser.parseCatalog(loadEntity(columnResult.getEntity()), column);
     }
+
   }
 
   private String loadEntity(HttpEntity entity) throws IOException{
